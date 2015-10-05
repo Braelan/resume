@@ -1,4 +1,4 @@
-html,p,a, body, header {
+html,span,p,a, h1,h2, h3,i,body, em,header {
   padding: 0;
   margin: 0;
   border: 0;
@@ -13,12 +13,83 @@ html,p,a, body, header {
 }
 
 html {
-  font-family: "Ubuntu";
-  margin: 20px 100px;
-  width: 650px;
+  margin: 20px auto;
+  width: 685px;
+}
+body {
+    font-family: "Ubuntu";
+}
+.group {
+  display: block;
+  clear: both;
+  content: "";
+}
+header {
+  /*background: yellow;*/
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.email {
+  float: left;
+}
+.phone {
+  float: right;
+}
+.contact {
+  display: block;
+  /*background: blue;*/
+  width: 685px;
+}
+div {
+  /*background: blue;*/
+  padding: 20px 0 0 0;
+}
+span {
+  margin: 20px 0 0 0;
+  display: block;
+  width: 685px;
+  height: 20px;
+  /*background: pink;*/
+
+}
+h1 {
+  margin: 30px 0 0 0;
+  /*background: orange;*/
+  width: 685px;
+  float: left;
+  font-weight: bold;
+}
+h2 {
+  padding: 0 30px 0 0;
+  /*background: blue;*/
+  float: left;
+}
+h3 {
+  /*background: black;
+  color: pink;*/
+  position: relative;
+  float: right;
 }
 
-header {
-  background: yellow;
-  text-align: center;
+i {
+  margin: 0;
+  width: 620px;
+  float: right;
+  height: auto;
+  /*background: green;*/
+}
+em {
+  /*background: yellow;*/
+  font-weight: bold;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: #4285F4;
+}
+
+u {
+  text-decoration: underline;
 }
