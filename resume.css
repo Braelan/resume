@@ -1,0 +1,24 @@
+html,p,a, body, header {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-family: "Ubuntu";
+  margin: 20px 100px;
+  width: 650px;
+}
+
+header {
+  background: yellow;
+  text-align: center;
+}
