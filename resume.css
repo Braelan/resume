@@ -58,12 +58,21 @@ h1 {
   /*background: orange;*/
   width: 685px;
   float: left;
-  font-weight: bold;
+  font-family: "Julius Sans One", sans-serif;
 }
 h2 {
   padding: 0 30px 0 0;
   /*background: blue;*/
   float: left;
+  font-weight: bold;
+}
+.year {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: normal;
 }
 h3 {
   /*background: black;
